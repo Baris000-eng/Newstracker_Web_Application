@@ -1,0 +1,85 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      transition: all 0.3s ease-in-out;
+      background-color: aqua;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 50px 20px;
+      text-align: center;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+
+    #logo {
+        text-align: center; /* center the logo horizontally */
+        margin-top: 50px; /* add some space above the logo */
+    }
+
+    #logo img {
+        width: 450px; /* set the width of the logo */
+        height: auto; /* preserve the aspect ratio of the logo */
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      font-size: 24px;
+      margin: 0 0 40px;
+      color: #777;
+    }
+
+    button {
+      font-size: 24px;
+      padding: 20px 40px;
+      background-color: #008CBA;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      justify-content: center;
+      margin: auto;
+      top: 50%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button:hover {
+      background-color: #00677F;
+    }
+
+    .dark-mode {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .dark-mode button {
+      background-color: #008CBA;
+      color: #fff;
+    }
+
+    .bg-color {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
